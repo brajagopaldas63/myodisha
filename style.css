@@ -1,0 +1,472 @@
+
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-color: bisque;
+  }
+  .sec1{
+    background-image: url(puri_mandir_bg.jpeg);
+    height: 1000px;
+    width: auto;
+   background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .sec1_text1{
+    font-size: 60px;
+    padding: 50px 80px;
+    color: rgb(255, 128, 0);
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: welcome;
+  }
+  @keyframes welcome{
+      from{ font-size: 30px;
+        padding: 50px 80px;
+        color: rgb(255, 128, 0);
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+      }
+
+      to{ font-size: 60px;
+        padding: 50px 80px;
+        color: rgb(255, 242, 0);
+        animation-duration: 4s;
+        animation-iteration-count: infinite;}
+
+       
+  }
+  
+  .sec1_text2{
+    padding-left: 100px;
+  }
+  #sec1_sub2{
+    font-size: 60px;
+    color: rgb(59, 59, 236);
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: jagannath;
+  }
+  @keyframes jagannath{
+    from{font-size: 30px;
+      color: rgb(59, 59, 236);
+      animation-duration: 3s;
+      animation-iteration-count: infinite;}
+      to{font-size: 60px;
+        color: rgb(36, 228, 106);
+        animation-duration: 3s;
+        animation-iteration-count: infinite;}
+  }
+  .btn1{
+    background: greenyellow;
+    border: 1px solid rgb(158, 9, 126);
+    border-radius: 80px;
+    font-size: 35px;
+    color: cornsilk;
+  }
+  .btn1:hover{
+    background-color: brown;
+  }
+  .header2{
+    background-color: rgb(29, 215, 153);
+    height: 50px;
+    width: 500;
+    border-radius: 80px;
+  }
+  .sec2{
+    background-image: url(jagannath.webp);
+    height: 100vh;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .sec2_text2{
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: aquamarine;
+  }
+  .sec2_details{
+    border: solid 2px blueviolet;
+    
+    background-color: rgb(222, 143, 15);
+    color: whitesmoke;
+  }
+  
+  .header2{
+    background-color: aquamarine;
+    width: 50%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 50px;
+    text-align: center;
+    border: 2px solid green;
+    animation-name: smart;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+  }
+  @keyframes smart{
+    from{ background-color: aquamarine;
+      width: 50%;
+      height: 50px;
+      font-size: 18px;
+      border-radius: 50px;
+      text-align: center;
+      border: 2px solid green;
+      animation-name: smart;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;}
+      to{background-color: yellowgreen;
+        width: 100%;
+        height: 50px;
+        font-size: 28px;
+        color: aliceblue;
+        border-radius: none;
+        text-align: center;
+        border: 2px dashed rgb(0, 75, 128);
+        animation-name: smart;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;}
+  }
+  .sec3_pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(233, 247, 244);
+
+  }
+  .sec3{
+    padding: 0;
+   background-image: url(bbsr.webp);
+   height: 1000px;
+   width: 1450px;
+  }
+.sec3_bbsr_pics{
+  border: solid 2px black;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 2s ease-out;
+
+}
+.sec3_bbsr_pics:hover{
+ rotate: 1 2 1 360deg;
+}
+
+.sec3_bbsr_pics_bg{
+  background-color: rgb(177, 230, 230);
+}
+.get_map{
+  background-color: yellowgreen;
+  height: 25px;
+  width: 100px;
+  border-radius: 5px;
+  transition: all 0.6s;
+
+}
+.get_map:hover{
+  background-color: blueviolet;
+ transform: scale(1.3);
+
+}
+#lingaraj_pic{
+ height: 50%;
+ width: 30%;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  
+
+}
+#lingaraj_pic:hover{
+  width: 95%;
+  height: 100%;
+}
+#header3{
+  background-color: aqua;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-name: acheivments;
+}
+@keyframes acheivments{
+  from{background-color: aqua;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;}
+    to{
+      background-color:greenyellow;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  color: rgb(167, 107, 28);
+  animation-iteration-count: infinite;
+  animation-duration: 2s; 
+    }
+}
+.sec4_text{
+  border: solid 2px brown;
+  background-color: beige;
+
+  
+}
+bg_video{
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.head4{
+background-color: aqua;
+height: 50px;
+text-align: center;
+width: 100%;
+border-radius: 1px;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+animation-name: revolution;
+color: burlywood;
+
+}
+@keyframes revolution{
+  from{background-color: aqua;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    border-radius: 1px;
+    color: burlywood;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+    to{background-color: rgb(0, 255, 140);
+      height: 60px;
+      text-align: center;
+      width: 50%;
+      color: chocolate;
+      border-radius: 10px;
+      border: 10px dotted rgb(224, 184, 7);
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-name: revolution;}
+}
+#sec5{
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+.sec5_raw1:hover{
+ transform: scale(1.2);
+}
+#braja:hover{
+  zoom: 1.8;
+}
+.head5{
+  background-color: rgb(54, 231, 78);
+  height: 50px;
+  text-align: center;
+  width: 100%;
+  border-radius: 1px;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-name: dance;
+  color: burlywood;
+  animation-delay: 10s;
+  
+  }
+  @keyframes dance{
+    from{background-color:  rgb(54, 231, 78);
+      height: 50px;
+      text-align: center;
+      width: 100%;
+      border-radius: 1px;
+      color: burlywood;
+      animation-duration: 2s;
+      animation-delay: 10s;
+      animation-iteration-count: infinite;
+      }
+      to{background-color: rgb(0, 255, 140);
+        height: 60px;
+        text-align: center;
+        width: 50%;
+        color: chocolate;
+        border-radius: 10px;
+        border: 10px dotted rgb(224, 184, 7);
+        animation-duration: 10s;
+        animation-delay: 10s;
+        animation-iteration-count: infinite;
+        animation-name: revolution;}
+  }
+  
+  .sec6{
+    padding-left: 40px;
+    font-size: 40px;
+    width: 500px;
+  height: 200px;
+  color: rgb(0, 136, 255);
+  animation-name: tribals;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+  }
+  @keyframes tribals{
+from{ font-size: 50px;
+  width: 700px;
+height: 200px;
+color: rgb(0, 136, 255);
+animation-name: tribals;
+animation-duration: 3s;
+animation-iteration-count: infinite;}
+to{ font-size: 80px;
+  width: 1000px;
+height: 200px;
+color: rgb(7, 111, 50);
+animation-name: tribals;
+animation-duration: 5s;
+animation-iteration-count: infinite;}
+  }
+  .tsec1{
+    border: dashed 2px black;
+    width: auto;
+    height: 100%;
+    justify-content: center;
+    background-color: aqua;
+    animation-name:text ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    color: rgb(145, 244, 6);
+    
+  }
+  @keyframes text{
+    from{border: dashed 2px black;
+      width: 1000px;
+      height: 100%;
+      background-color: aqua;
+      animation-name:text ;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      color: rgb(145, 244, 6);}
+
+      to{border: solid 2px black;
+        width: 1000px;
+        height: 100%;
+        background-color: aquamarine;
+        animation-name:text ;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+      color: rgb(227, 112, 11);}
+  }
+.pics:hover{
+  zoom: 2.8;
+}
+.fes_sec1{
+  border: dashed 3px black;
+  width: 50%;
+  height: 100%;
+  background-color: aqua;
+  justify-content: center;
+  animation-name:text ;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  color: rgb(145, 244, 6);
+  
+}
+@keyframes text{
+  from{border: dashed 5px black;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(228, 131, 52);
+    animation-name:text ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    color: rgb(145, 244, 6);}
+
+    to{border: solid 2px black;
+      width: 80%;
+      height: 100%;
+      background-color: rgb(190, 214, 95);
+      animation-name:text ;
+      animation-duration: 60s;
+      animation-iteration-count: inherit;
+    color: rgb(227, 79, 11);}
+}
+.psec1{
+  border: dashed 2px black;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  background-color: rgb(161, 60, 102);
+  animation-name:text ;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  color: rgb(145, 244, 6);
+  
+}
+@keyframes text{
+  from{border: dashed 2px black;
+    width: 1000px;
+    display: flex;
+  flex-wrap: wrap;
+    height: 100%;
+    background-color: rgb(234, 255, 0);
+    animation-name:text ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    color: rgb(145, 244, 6);}
+
+    to{border: solid 2px black;
+      width: 1000px;
+      height: 100%;
+      display: flex;
+  flex-wrap: wrap;
+      background-color: aquamarine;
+      animation-name:text ;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+    color: rgb(227, 112, 11);}
+}
+
+#food_pic{
+  width: 50%;
+  animation-name: food;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes food{
+  from{width: 50%;
+    
+    animation-duration: 3s;
+    animation-iteration-count: infinite;}
+
+    to{width: 80%;
+      
+      animation-duration: 5s;
+      animation-iteration-count: infinite;}
+}
+
+.history_bg{
+background-image: url(od_bg_map.webp);
+background-size: cover;
+background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+
+}
+#history_text{
+  padding-left: 30%;
+  padding-right: 30%;
+  color: rgb(186, 240, 9);
+}
+
